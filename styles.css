@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: #180A0A;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* 헤더(제목) */
+header {
+    margin: auto;
+    margin-top: 4rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* 썸네일 */
+.thumbnail {
+    margin: auto;
+    margin-top: 1rem;
+}
+.thumbnail img {
+    width: 130px;
+    border-radius: 50%;
+}
+
+/* 소제목 */
+.slug {
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/* 링크 Wrapper */
+.links {
+    margin-top: 3rem;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+/* 링크 요소 */
+.links__link {
+    background: #FFC7C7;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+}
+.links__link:not(:last-child) {
+    margin-bottom: 1.8rem;
+}
+.links__link:hover {
+    background: #FF9292;
+    transition: all 0.5s ease-out;
+}
+
+.links__link a {
+    width: 100%;
+    height: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
